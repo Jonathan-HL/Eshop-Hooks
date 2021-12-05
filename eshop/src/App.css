@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  border : solid 5px black;
+  padding: 10px;
+}
+ul { 
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content : center;
+  margin: 10px;
+  border : solid black 2px ; 
+  background-color: rgb(11, 226, 11);
+}
+
+ul li { 
+  list-style: none ; 
+  display : flex ; 
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+
+}
+
+.liste { 
+  display : flex ; 
+  justify-content : center ; 
+  align-items: center;
+}
+
+img { 
+  height: 110px;
+  width: 100%
+}
+button { 
+  padding : 15px;
+  border-radius: 10px;
+}
+
+.panierListe {
+  display :flex
+}
+
+.on { 
+  background-color: green;
+  width : 200px;
+  height : 200px
+
+}
+.off { 
+  background-color: red;
+  width : 200px;
+  height : 200px
+}
